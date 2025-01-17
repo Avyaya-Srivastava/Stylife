@@ -1,7 +1,11 @@
 import React from 'react'
 import { assets } from '../assets/assets'
+import { useNavigate } from 'react-router-dom'
 
 const Hero = () => {
+
+    const navigate = useNavigate();
+
   return (
     <div className='flex flex-col sm:flex-row border border-gray-400 mt-10'>
         {/*Hero Left Side */}
@@ -13,7 +17,7 @@ const Hero = () => {
                 </div>
                 <h1 className='prata-regular text-3xl sm:py-3 lg:text-5xl leading-relaxed'>Latest Arrivals</h1>
                 <div className='flex items-center gap-2'>
-                    <p className='font-semibold text-sm md:text-base'>SHOP NOW</p>
+                <button onClick={() => navigate('/collection')} className='bg-[#F2C9C1] text-white text-sm px-4 py-4'>SHOP NOW</button>
                     <p className='w-8 md:w-11 h-[1px] bg-[#414141'></p>
                 </div>
             </div>

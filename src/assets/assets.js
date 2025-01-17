@@ -60,6 +60,7 @@ import logo2 from './logo2.png'
 import logo3 from './logo3.png'
 import logo4 from './logo4.png'
 import hero_img from './hero_img.png'
+import shirt_img from './shirt_img.png'
 import cart_icon from './cart_icon.png'
 import bin_icon from './bin_icon.png'
 import dropdown_icon from './dropdown_icon.png'
@@ -83,6 +84,7 @@ export const assets = {
     logo3,
     logo4,
     hero_img,
+    shirt_img,
     cart_icon,
     dropdown_icon,
     exchange_icon,
