@@ -17,7 +17,7 @@ const Hero = () => {
                 </div>
                 <h1 className='prata-regular text-3xl sm:py-3 lg:text-5xl leading-relaxed'>Latest Arrivals</h1>
                 <div className='flex items-center gap-2'>
-                <button onClick={() => navigate('/collection')} className='bg-[#F2C9C1] text-white text-sm px-4 py-4'>SHOP NOW</button>
+                <button onClick={() => navigate('/collection')} className='bg-[#F2C9C1] text-white hover:bg-black text-sm px-4 py-4'>SHOP NOW</button>
                     <p className='w-8 md:w-11 h-[1px] bg-[#414141'></p>
                 </div>
             </div>
