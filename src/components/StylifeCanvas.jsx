@@ -13,7 +13,7 @@ const Hero = () => {
                 </div>
                 <h1 className='prata-regular text-3xl sm:py-3 lg:text-5xl leading-relaxed'>Let's Stylife</h1>
                 <div className='flex items-center gap-2'>
-                <button onClick={() => window.open("http://localhost:5174/", "_blank", "noopener noreferrer")} className='bg-[#EFBD4E] text-white hover:bg-black text-sm px-4 py-4'>CUSTOMIZE NOW</button>
+                <button onClick={() => window.open("http://192.168.0.108:5173/", "_blank", "noopener noreferrer")} className='bg-[#EFBD4E] text-white hover:bg-black text-sm px-4 py-4'>CUSTOMIZE NOW</button>
                     <p className='w-8 md:w-11 h-[1px] bg-[#414141'></p>
                 </div>
             </div>
